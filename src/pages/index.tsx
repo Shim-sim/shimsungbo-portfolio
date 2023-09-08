@@ -1,14 +1,24 @@
-import Image from 'next/image';
-import { Inter } from 'next/font/google';
+import React, { useEffect, useRef } from 'react';
+import { gsap } from 'gsap';
 
-const inter = Inter({ subsets: ['latin'] });
+const Home = () => {
+  const myHeader = useRef(null);
 
-export default function Home() {
+  useEffect(() => {
+    gsap.to(myHeader.current, {
+      opacity: 0,
+      duration: 3,
+    });
+  }, []);
+
   return (
     <main
-      className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
+      ref={myHeader}
+      className="flex h-screen w-screen justify-center items-center bg-[#333333]"
     >
-      포트폴리오
+      kkkk123
     </main>
   );
-}
+};
+
+export default Home;
