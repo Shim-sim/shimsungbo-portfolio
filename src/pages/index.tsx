@@ -1,8 +1,8 @@
-import Head from 'next/head';
-import React from 'react';
-import IntroductionContainer from '@/components/IntroductionContainer/IntroductionContainer';
-import ExperienceContainer from '@/components/ExperienceContainer/ExperienceContainer';
-import Footer from '@/components/Footer';
+import Head from "next/head";
+import React from "react";
+import IntroductionContainer from "@/components/IntroductionContainer/IntroductionContainer";
+import ExperienceContainer from "@/components/ExperienceContainer/ExperienceContainer";
+import Footer from "@/components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -26,8 +26,8 @@ const Home = () => {
       </Head>
       <main>
         <section className="relative flex flex-col">
-          <ExperienceContainer />
           <IntroductionContainer />
+          <ExperienceContainer />
           <Footer />
           {!!1 && <div>여기는 조건부 통해서 버튼이 들어가게 만들자</div>}
         </section>
