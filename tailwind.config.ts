@@ -18,6 +18,9 @@ const config: Config = {
       tablet: { max: '1080px' },
       desktop: { min: '1080px' },
     },
+    fontFamily: {
+      Pretendard: ['Pretendard'],
+    },
   },
   plugins: [],
 };
