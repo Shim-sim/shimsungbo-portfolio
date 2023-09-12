@@ -1,10 +1,9 @@
 import React from 'react';
-import Image from 'next/image';
 import FadeInContent from '@/components/gsap/FadeInContent';
 import FadeInHeaderText from '@/components/gsap/FadeInHeaderText';
-import Underline from '@/components/gsap/Underline';
 import FadeInBodyText from '@/components/gsap/FadeInBodyText';
 import SkyPoint from '../SkyPoint';
+import ArrowDown from 'public/ArrowDown.svg';
 
 const IntroductionContainer = () => {
   return (
@@ -43,9 +42,9 @@ const IntroductionContainer = () => {
         </FadeInHeaderText>
         <FadeInHeaderText delay={1.9}>
           <span className="text-[85px] tablet:text-[70px] mobile:text-[38px]">
-            <Underline color="red" delay={2.4}>
+            <span className={` from-indigo-500 underline decoration-sky-500`}>
               심성보
-            </Underline>
+            </span>
           </span>
           <span className=" text-[50px] tablet:text-[40px] mobile:text-[28px]">
             입니다.
@@ -64,8 +63,10 @@ const IntroductionContainer = () => {
             </span>
           </div>
         </FadeInBodyText>
+
+        {/* 메인 이미지 */}
         <div>
-          <div className="fixed left-[20%] top-0 opacity-50 w-screen tablet:absolute target:left-0">
+          <div className="fixed left-[20%] top-0 opacity-50 w-screen tablet:absolute tablet:left-0">
             <img
               className="w-[80vw] h-screen object-cover tablet:w-screen mobile:w-screen"
               src="sungbo.jpeg"
@@ -74,6 +75,16 @@ const IntroductionContainer = () => {
           </div>
         </div>
         {/*여기에 Arrow button 추가 */}
+        <FadeInContent delay={3.5}>
+          <div className="mt-[100px] m-0 p-0 rounded-2xl flex items-center justify-center animate-bounce">
+            <ArrowDown
+              fill="rgb(42,169,224)"
+              width="20%"
+              height="10%"
+              viewBox="0 1 14 6"
+            />
+          </div>
+        </FadeInContent>
       </article>
     </section>
   );

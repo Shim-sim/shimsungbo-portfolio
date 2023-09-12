@@ -19,9 +19,10 @@ const FadeInHeaderText = ({ children, delay }: TextProps) => {
       opacity: 0,
       delay,
       duration: 1.5,
-      ease: 'power3.out',
+      ease: 'linear',
     });
   }, [delay]);
+
   return (
     <p className="font-Pretendard relative z-[5] tracking-[2px]" ref={target}>
       {children}
