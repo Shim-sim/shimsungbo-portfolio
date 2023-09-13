@@ -1,15 +1,12 @@
 @tailwind base;
-@layer base {
-  h1 {
-    @apply text-2xl;
-  }
-  h2 {
-    @apply text-xl;
-  }
-  h3 {
-    @apply text-lg;
-  }
-}
 
 @tailwind components;
+
+.divide_line {
+  @apply h-[6.5px] mt-[30px] bg-sky-500 desktop:w-[60vw] tablet:w-[90vw] mobile:w-[80vw];
+}
+
+.experience_title {
+  @apply text-[70px] font-Pretendard m-0 desktop:w-[60vw] tablet:w-[90vw] mobile:w-[80vw] mobile:text-[50px];
+}
 @tailwind utilities;

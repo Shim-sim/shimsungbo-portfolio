@@ -1,8 +1,8 @@
-import Head from "next/head";
-import React from "react";
-import IntroductionContainer from "@/components/IntroductionContainer/IntroductionContainer";
-import ExperienceContainer from "@/components/ExperienceContainer/ExperienceContainer";
-import Footer from "@/components/Footer/Footer";
+import Head from 'next/head';
+import React from 'react';
+import IntroductionContainer from '@/components/IntroductionContainer/IntroductionContainer';
+import ExperienceContainer from '@/components/ExperienceContainer/ExperienceContainer';
+import Footer from '@/components/Footer/Footer';
 
 const Home = () => {
   return (
