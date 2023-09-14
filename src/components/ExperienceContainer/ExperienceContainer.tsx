@@ -16,8 +16,8 @@ const ExperienceContainer = () => {
         </div>
       )}
       {/*컨텐츠*/}
-      <div className="flex w-[80vw] flex-col p-[40px]">
-        {/*경험 */}
+      <div className="flex relative w-[80vw] flex-col p-[40px]">
+        {/*일 경험 */}
         <article className="flex w-full flex-col gay-y-[70px] mt-[50px] mb-[100px] mobile:gap-y-[55px]">
           <FadeInContent delay={0.3}>
             <h1 className="experience_title">
@@ -25,6 +25,56 @@ const ExperienceContainer = () => {
             </h1>
             <div className="divide_line"></div>
           </FadeInContent>
+          <FadeInContent delay={0.3}>여기에는 현재 위니언</FadeInContent>
+          <FadeInContent delay={0.3}>과거 축구선수 이력 짧게</FadeInContent>
+        </article>
+
+        {/*개인 프로젝트*/}
+        <article className="flex w-full flex-col gay-y-[70px] mt-[50px] mb-[100px] mobile:gap-y-[55px]">
+          <FadeInContent delay={0.3}>
+            <h1 className="experience_title">
+              Project<SkyPoint>.</SkyPoint>
+            </h1>
+            <div className="divide_line"></div>
+          </FadeInContent>
+          <FadeInContent delay={0.3}>개인 프로젝트</FadeInContent>
+          <FadeInContent delay={0.3}>팀 프로젝트</FadeInContent>
+        </article>
+
+        {/*공유 및 스터디*/}
+        <article className="flex w-full flex-col gay-y-[70px] mt-[50px] mb-[100px] mobile:gap-y-[55px]">
+          <FadeInContent delay={0.3}>
+            <h1 className="experience_title">
+              Share & Study<SkyPoint>.</SkyPoint>
+            </h1>
+            <div className="divide_line"></div>
+          </FadeInContent>
+          <FadeInContent delay={0.3}>개인노션</FadeInContent>
+          <FadeInContent delay={0.3}>새싹ㅅ스터디?</FadeInContent>
+        </article>
+
+        {/*오픈소스 및 교육*/}
+        <article className="flex w-full flex-col gay-y-[70px] mt-[50px] mb-[100px] mobile:gap-y-[55px]">
+          <FadeInContent delay={0.3}>
+            <h1 className="experience_title">
+              OpenSource Education<SkyPoint>.</SkyPoint>
+            </h1>
+            <div className="divide_line"></div>
+          </FadeInContent>
+          <FadeInContent delay={0.3}>우테코만 적자</FadeInContent>
+          <FadeInContent delay={0.3}>nextjs 오픈소스</FadeInContent>
+        </article>
+
+        {/*오픈소스 및 교육*/}
+        <article className="flex w-full flex-col gay-y-[70px] mt-[50px] mb-[100px] mobile:gap-y-[55px]">
+          <FadeInContent delay={0.3}>
+            <h1 className="experience_title">
+              OpenSource 🟢 Education<SkyPoint>.</SkyPoint>
+            </h1>
+            <div className="divide_line"></div>
+          </FadeInContent>
+          <FadeInContent delay={0.3}>우테코만 적자</FadeInContent>
+          <FadeInContent delay={0.3}>nextjs 오픈소스</FadeInContent>
         </article>
       </div>
     </div>

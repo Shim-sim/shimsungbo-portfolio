@@ -7,10 +7,10 @@ import ArrowDown from 'public/ArrowDown.svg';
 
 const IntroductionContainer = () => {
   return (
-    <section className="flex flex-row relative h-screen w-screen bg-[#202224] text-white tablet:flex-col">
+    <section className="flex  relative h-screen w-screen bg-[#202224] text-white tablet:flex-col tablet:h-[130vh]">
       <FadeInContent delay={1}>
         {/*사이드 바*/}
-        <aside className="flex flex-col justify-between items-center w-[20vw] h-full tablet:w-screen tablet:h-full tablet:gap-y-[20px]">
+        <aside className="flex flex-col justify-between items-center w-[20vw] h-full tablet:w-screen tablet:h-full tablet:gap-y-[30px]">
           <div className="flex relative flex-col justify-center mt-[57px] gap-y-[15px] tablet:gap-y-[5px]">
             <a className="w-full font-semibold font-Pretendard cursor-pointer h-full text-3xl text-left p-2.5 bg-gradient-to-r from-indigo-500 duration-700 hover:bg-sky-500 hover:to-transparent">
               GitHub<SkyPoint>.</SkyPoint>
@@ -34,7 +34,7 @@ const IntroductionContainer = () => {
       </FadeInContent>
 
       {/* 메인 */}
-      <article className="flex relative flex-col justify-center items-center w-[80vw] h-full tablet:w-screen tablet:h-[200vh] mobile:w-screen mobile:h-[200vh]">
+      <article className="flex font-semibold relative flex-col justify-center items-center w-[80vw] h-full  tablet:w-screen tablet:h-[200vh] mobile:w-screen mobile:h-[200vh]">
         <FadeInHeaderText delay={1.5}>
           <span className=" text-[50px] tablet:text-[40px] mobile:text-[28px]">
             기록과 공유를 좋아하는
@@ -51,7 +51,7 @@ const IntroductionContainer = () => {
           </span>
         </FadeInHeaderText>
         <FadeInBodyText delay={2.6}>
-          <div className="flex flex-col justify-center items-center">
+          <div className="flex font-semibold flex-col justify-center items-center">
             <span className="text-[30px] tablet:text-[23px] mobile:text-[14px]">
               프론트엔드 개발자입니다.
             </span>
@@ -75,7 +75,7 @@ const IntroductionContainer = () => {
           </div>
         </div>
         {/*여기에 Arrow button 추가 */}
-        <FadeInContent delay={3.5}>
+        {/* <FadeInContent delay={3.5}>
           <div className="mt-[100px] m-0 p-0 rounded-2xl flex items-center justify-center animate-bounce">
             <ArrowDown
               fill="rgb(42,169,224)"
@@ -84,7 +84,7 @@ const IntroductionContainer = () => {
               viewBox="0 1 14 6"
             />
           </div>
-        </FadeInContent>
+        </FadeInContent> */}
       </article>
     </section>
   );

@@ -25,7 +25,7 @@ const Home = () => {
         />
       </Head>
       <main>
-        <section className="relative flex flex-col">
+        <section className="flex-col">
           <IntroductionContainer />
           <ExperienceContainer />
           <Footer />
