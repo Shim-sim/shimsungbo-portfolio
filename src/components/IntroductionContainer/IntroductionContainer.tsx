@@ -2,8 +2,10 @@ import React from 'react';
 import FadeInContent from '@/components/gsap/FadeInContent';
 import FadeInHeaderText from '@/components/gsap/FadeInHeaderText';
 import FadeInBodyText from '@/components/gsap/FadeInBodyText';
+import Image from 'next/image';
 import SkyPoint from '../SkyPoint';
 import ArrowDown from 'public/ArrowDown.svg';
+import Sungbo from 'public/sungbo.jpeg';
 
 const IntroductionContainer = () => {
   return (
@@ -67,11 +69,9 @@ const IntroductionContainer = () => {
         {/* 메인 이미지 */}
         <div>
           <div className="fixed left-[20%] top-0 opacity-50 w-screen tablet:absolute tablet:left-0">
-            <img
-              className="w-[80vw] h-screen object-cover tablet:w-screen mobile:w-screen"
-              src="sungbo.jpeg"
-              alt="background-image"
-            />
+            <div className="w-[80vw] h-screen tablet:w-screen mobile:w-screen">
+              <Image layout="fill" objectFit="fill" src={Sungbo} alt="background-image" />
+            </div>
           </div>
         </div>
         {/*여기에 Arrow button 추가 */}
