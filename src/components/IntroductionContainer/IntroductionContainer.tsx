@@ -9,7 +9,7 @@ import Sungbo from 'public/sungbo.jpeg';
 
 const IntroductionContainer = () => {
   return (
-    <section className="flex  relative h-screen w-screen bg-[#202224] text-white tablet:flex-col tablet:h-[130vh]">
+    <section className="flex relative h-screen w-screen bg-[#202224] text-white tablet:flex-col tablet:h-[130vh]">
       <FadeInContent delay={1}>
         {/*사이드 바*/}
         <aside className="flex flex-col justify-between items-center w-[20vw] h-full tablet:w-screen tablet:h-full tablet:gap-y-[30px]">
@@ -67,15 +67,16 @@ const IntroductionContainer = () => {
         </FadeInBodyText>
 
         {/* 메인 이미지 */}
-        <div>
-          <div className="fixed left-[20%] top-0 opacity-50 w-screen tablet:absolute tablet:left-0">
-            <div className="w-[80vw] h-screen tablet:w-screen mobile:w-screen">
-              <Image layout="fill" objectFit="fill" src={Sungbo} alt="background-image" />
-            </div>
-          </div>
+        <div className="absolute left-[%] top-0 opacity-50 w-screen tablet:absolute tablet:left-0 mobile:left:0 mobile:absolute">
+          <Image
+            src={Sungbo}
+            alt="background-image"
+            className="w-[80vw] h-screen object-cover tablet:w-screen mobile:w-screen"
+          />
         </div>
+
         {/*여기에 Arrow button 추가 */}
-        {/* <FadeInContent delay={3.5}>
+        <FadeInContent delay={3.5}>
           <div className="mt-[100px] m-0 p-0 rounded-2xl flex items-center justify-center animate-bounce">
             <ArrowDown
               fill="rgb(42,169,224)"
@@ -84,7 +85,7 @@ const IntroductionContainer = () => {
               viewBox="0 1 14 6"
             />
           </div>
-        </FadeInContent> */}
+        </FadeInContent>
       </article>
     </section>
   );

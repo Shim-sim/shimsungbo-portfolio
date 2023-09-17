@@ -3,8 +3,12 @@ import React from 'react';
 import IntroductionContainer from '@/components/IntroductionContainer/IntroductionContainer';
 import ExperienceContainer from '@/components/ExperienceContainer/ExperienceContainer';
 import Footer from '@/components/Footer/Footer';
+import { useMediaQuery } from '@material-ui/core';
+import ScrollTopButton from '@/components/ScrollTopButton';
 
 const Home = () => {
+  const isOver1100px = useMediaQuery('(min-width:1100px)');
+
   return (
     <>
       <Head>
@@ -29,7 +33,7 @@ const Home = () => {
           <IntroductionContainer />
           <ExperienceContainer />
           <Footer />
-          {!!1 && <div>여기는 조건부 통해서 버튼이 들어가게 만들자</div>}
+          {isOver1100px && <ScrollTopButton />}
         </section>
       </main>
     </>
