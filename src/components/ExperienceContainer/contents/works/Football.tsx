@@ -19,10 +19,9 @@ const Football = () => {
         전 축구선수
       </span>
       <h2 className="flex items-center text-[40px] gap-x-5 m-0 font-semibold mobile:text-[32px]">
-        <a className="bg-gradient-to-r from-indigo-500 duration-500 hover:bg-sky-500 hover:to-transparent">
+        <a className="bg-[200%] duration-300 bg-gradient-to-r from-purple-200 hover:bg-sky-300 hover:to-transparent underline underline-offset-8">
           축구
         </a>
-        🌊
       </h2>
       <span className="text-[18px] font-semibold mobile:text-[16px]">
         14년간 축구생활

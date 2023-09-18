@@ -6,47 +6,8 @@ import Links from '../../common/Links';
 
 const LINKS = [
   {
-    href: 'https://github.com',
-    text: '위니언 일지',
-  },
-  {
-    href: 'https://github.com',
-    text: '우선 하드코딩',
-  },
-];
-
-const SKILLS = [
-  {
-    skill: 'React',
-    explain: EXPLAIN.react,
-  },
-  {
-    skill: 'Next.JS',
-    explain: EXPLAIN.nextjs,
-  },
-  {
-    skill: 'TypeScript',
-    explain: EXPLAIN.typescript,
-  },
-  {
-    skill: 'styled-components',
-    explain: EXPLAIN.styledComponents,
-  },
-  {
-    skill: 'MUI',
-    explain: EXPLAIN.mui,
-  },
-  {
-    skill: 'ESLint',
-    explain: EXPLAIN.eslint,
-  },
-  {
-    skill: 'Prettier',
-    explain: EXPLAIN.prettier,
-  },
-  {
-    skill: 'Vercel',
-    explain: EXPLAIN.vercel,
+    href: 'https://www.notion.so/shimsungbo/e06791c2fa6948a4b297dae9b806235a?pvs=4',
+    text: '새싹스터디',
   },
 ];
 
@@ -57,8 +18,8 @@ const Study = () => {
         스터디
       </span>
       <h2 className="flex items-center text-[40px] gap-x-5 m-0 font-semibold mobile:text-[32px]">
-        <a className="bg-gradient-to-r from-indigo-500 duration-500 hover:bg-sky-500 hover:to-transparent">
-          프론트엔드 스터다
+        <a className="bg-gradient-to-r from-indigo-500 duration-500 hover:bg-sky-500 hover:to-transparent underline underline-offset-4">
+          프론트엔드 스터디
         </a>
       </h2>
       <span className="text-[18px] font-semibold mobile:text-[16px]">
@@ -71,7 +32,6 @@ const Study = () => {
         <Explain>템플릿 정리 및 공유</Explain>
       </article>
       <Links links={LINKS} />
-      <Skills skills={SKILLS} />
     </div>
   );
 };

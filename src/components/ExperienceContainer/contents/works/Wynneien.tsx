@@ -19,16 +19,15 @@ const Wynneien = () => {
         재직
       </span>
       <h2 className="flex items-center text-[40px] gap-x-5 m-0 font-semibold mobile:text-[32px]">
-        <a className="bg-gradient-to-r from-indigo-500 duration-500 hover:bg-sky-500 hover:to-transparent">
+        <a className="bg-[200%] duration-300 bg-gradient-to-r from-purple-200 hover:bg-sky-300 hover:to-transparent underline underline-offset-8">
           위니언
         </a>
-        🌊
       </h2>
       <span className="text-[18px] font-semibold mobile:text-[16px]">
         2023년 02월 07일 - (재직중)
       </span>
       <article className="flex flex-col gap-y-[7]">
-        <Explain>사내 시스템 개발을 하는 프론트엔드 팀소속</Explain>
+        <Explain>사내 차트시스템의 리뉴얼을 담당하는 프론트엔드팀 소속</Explain>
         <Explain>노후화 된 사내차트시스템 리뉴얼 프로젝트 진행</Explain>
       </article>
       <Links links={LINKS} />

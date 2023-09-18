@@ -3,6 +3,7 @@ import FadeInContent from '@/components/gsap/FadeInContent';
 import FadeInHeaderText from '@/components/gsap/FadeInHeaderText';
 import FadeInBodyText from '@/components/gsap/FadeInBodyText';
 import Image from 'next/image';
+import Link from 'next/link';
 import SkyPoint from '../SkyPoint';
 import ArrowDown from 'public/ArrowDown.svg';
 import Sungbo from 'public/sungbo.jpeg';
@@ -14,15 +15,28 @@ const IntroductionContainer = () => {
         {/*사이드 바*/}
         <aside className="flex flex-col justify-between items-center w-[20vw] h-full tablet:w-screen tablet:h-full tablet:gap-y-[30px]">
           <div className="flex relative flex-col justify-center mt-[57px] gap-y-[15px] tablet:gap-y-[5px]">
-            <a className="w-full font-semibold font-Pretendard cursor-pointer h-full text-3xl text-left p-2.5 bg-gradient-to-r from-indigo-500 duration-700 hover:bg-sky-500 hover:to-transparent">
+            <Link
+              href="https://github.com/Shim-sim"
+              target={'_blank'}
+              className="w-full font-semibold font-Pretendard cursor-pointer h-full text-3xl text-left p-2.5 bg-gradient-to-r from-indigo-500 duration-700 hover:bg-sky-500 hover:to-transparent"
+            >
               GitHub<SkyPoint>.</SkyPoint>
-            </a>
-            <a className="w-full font-semibold font-Pretendard cursor-pointer h-full text-3xl text-left p-2.5 bg-gradient-to-r from-indigo-500 duration-700 hover:bg-sky-500 hover:to-transparent">
+            </Link>
+            <Link
+              href={'123'}
+              className="w-full font-semibold font-Pretendard cursor-pointer h-full text-3xl text-left p-2.5 bg-gradient-to-r from-indigo-500 duration-700 hover:bg-sky-500 hover:to-transparent"
+            >
               LinkedIn<SkyPoint>.</SkyPoint>
-            </a>
-            <a className="w-full font-semibold font-Pretendard cursor-pointer h-full text-3xl text-left p-2.5 bg-gradient-to-r from-indigo-500 duration-700 hover:bg-sky-500 hover:to-transparent">
+            </Link>
+            <Link
+              href={
+                'https://www.notion.so/shimsungbo/ecb1ac8e72064f0d916a492842109371?pvs=4'
+              }
+              target={'_blank'}
+              className="w-full font-semibold font-Pretendard cursor-pointer h-full text-3xl text-left p-2.5 bg-gradient-to-r from-indigo-500 duration-700 hover:bg-sky-500 hover:to-transparent"
+            >
               Notion<SkyPoint>.</SkyPoint>
-            </a>
+            </Link>
           </div>
 
           {/*바텀 컨테이너 */}
@@ -67,11 +81,11 @@ const IntroductionContainer = () => {
         </FadeInBodyText>
 
         {/* 메인 이미지 */}
-        <div className="absolute left-[%] top-0 opacity-50 w-screen tablet:absolute tablet:left-0 mobile:left:0 mobile:absolute">
+        <div className="absolute left-[1%] top-0 opacity-50 w-screen tablet:absolute tablet:left-0 mobile:left:0 mobile:absolute">
           <Image
             src={Sungbo}
             alt="background-image"
-            className="w-[80vw] h-screen object-cover tablet:w-screen mobile:w-screen"
+            className="w-[80vw] h-screen tablet:w-screen mobile:w-screen"
           />
         </div>
 

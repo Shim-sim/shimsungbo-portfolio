@@ -18,7 +18,8 @@ const Links = ({ links }: { links: LinkProps[] }) => {
           <Explain key={`${index + 1}-${link.text}`}>
             <a
               href={link.href}
-              className="bg-gradient-to-r from-indigo-500 duration-500 hover:bg-sky-500 hover:to-transparent"
+              target="_blank"
+              className="bg-gradient-to-r bg-[200%] duration-300 hover:bg-purple-100 hover:to-transparent underline underline-offset-4"
             >
               {link.text}
             </a>
