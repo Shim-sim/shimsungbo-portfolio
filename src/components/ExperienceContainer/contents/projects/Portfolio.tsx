@@ -6,12 +6,8 @@ import Links from '../../common/Links';
 
 const LINKS = [
   {
-    href: 'https://github.com',
-    text: '위니언 일지',
-  },
-  {
-    href: 'https://github.com',
-    text: '우선 하드코딩',
+    href: 'https://github.com/Shim-sim/shimsungbo-prtfolio',
+    text: 'GitHub Repository',
   },
 ];
 
@@ -27,10 +23,6 @@ const SKILLS = [
   {
     skill: 'TypeScript',
     explain: EXPLAIN.typescript,
-  },
-  {
-    skill: 'styled-components',
-    explain: EXPLAIN.styledComponents,
   },
   {
     skill: 'MUI',
@@ -57,9 +49,9 @@ const Portfolio = () => {
         개인 프로젝트
       </span>
       <h2 className="flex items-center text-[40px] gap-x-5 m-0 font-semibold mobile:text-[32px]">
-        <a className="bg-gradient-to-r from-indigo-500 duration-500 hover:bg-sky-500 hover:to-transparent underline underline-offset-8">
+        <span className="bg-gradient-to-r from-indigo-500 duration-500 hover:bg-sky-500 hover:to-transparent underline underline-offset-8">
           나만의 포트폴리오 개발(현재 페이지)
-        </a>
+        </span>
       </h2>
       <span className="text-[18px] font-semibold mobile:text-[16px]">
         2023년 09월 개발

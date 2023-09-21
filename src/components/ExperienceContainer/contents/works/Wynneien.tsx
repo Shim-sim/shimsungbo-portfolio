@@ -6,10 +6,6 @@ const LINKS = [
     href: 'https://github.com',
     text: '위니언 일지',
   },
-  {
-    href: 'https://github.com',
-    text: '우선 하드코딩',
-  },
 ];
 
 const Wynneien = () => {
@@ -19,9 +15,9 @@ const Wynneien = () => {
         재직
       </span>
       <h2 className="flex items-center text-[40px] gap-x-5 m-0 font-semibold mobile:text-[32px]">
-        <a className="bg-[200%] duration-300 bg-gradient-to-r from-purple-200 hover:bg-sky-300 hover:to-transparent underline underline-offset-8">
+        <span className="bg-gradient-to-r from-indigo-500 duration-500 hover:bg-sky-500 hover:to-transparent underline underline-offset-8">
           위니언
-        </a>
+        </span>
       </h2>
       <span className="text-[18px] font-semibold mobile:text-[16px]">
         2023년 02월 07일 - (재직중)
