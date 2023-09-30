@@ -21,8 +21,8 @@ const SKILLS = [
     explain: EXPLAIN.nextjs,
   },
   {
-    skill: 'TypeScript',
-    explain: EXPLAIN.typescript,
+    skill: 'TailwindCss',
+    explain: EXPLAIN.tailwindCss,
   },
   {
     skill: 'MUI',
