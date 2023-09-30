@@ -11,6 +11,7 @@ import Notions from './contents/shareStudy/Notions';
 import Study from './contents/shareStudy/Study';
 import Education from './contents/eduOpenSource/Education';
 import OpenSource from './contents/eduOpenSource/OpenSource';
+import SidebarContents from '../SidebarContents/SidebarContents';
 
 const ExperienceContainer = () => {
   const isOver1100px = useMediaQuery('(min-width:1100px)');
@@ -18,9 +19,11 @@ const ExperienceContainer = () => {
   return (
     <div className="flex relative w-screen bg-[#F1F3F8]">
       {isOver1100px && (
-        <div className="sticky top-0 w-[20vw] h-screen">
-          <div>테ㅣㅇ블 컨텐츠 정보들</div>
-        </div>
+        <FadeInContent delay={1.3}>
+          <div className=" h-[4820px] w-[20.8vw] bg-[#aac8ff]">
+            <div className="bg-[#aac8ff] h-full "></div>
+          </div>
+        </FadeInContent>
       )}
       {/*컨텐츠*/}
       <div className="flex relative w-[80vw] flex-col p-[40px]">
