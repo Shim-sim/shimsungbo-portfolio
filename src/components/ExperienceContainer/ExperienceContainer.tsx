@@ -11,7 +11,6 @@ import Notions from './contents/shareStudy/Notions';
 import Study from './contents/shareStudy/Study';
 import Education from './contents/eduOpenSource/Education';
 import OpenSource from './contents/eduOpenSource/OpenSource';
-import SidebarContents from '../SidebarContents/SidebarContents';
 
 const ExperienceContainer = () => {
   const isOver1100px = useMediaQuery('(min-width:1100px)');
