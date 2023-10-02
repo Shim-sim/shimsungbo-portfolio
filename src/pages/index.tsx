@@ -14,15 +14,11 @@ const Home = () => {
       <Head>
         {/* HTML Meta Tags */}
         <title>심성보 포트폴리오</title>
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/Favicon.png" />
         <meta
           name="description"
           content="프론트엔드 장인을 꿈꾸는 심성보의 포트폴리오입니다."
         />
-        {/* <meta
-        name="google-site-verification"
-        content={process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION_KEY}
-      /> */}
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, minimum-scale=1 maximum-scale=1, user-scalable=no"

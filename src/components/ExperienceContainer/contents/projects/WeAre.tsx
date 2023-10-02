@@ -23,10 +23,10 @@ const WeAre = () => {
         </span>
       </h2>
       <span className="text-[18px] font-semibold mobile:text-[16px]">
-        2022년 07월 현역으로 육군에서 복무중에 개발한 익명앱 플랫폼
+        2022년 07월 현역으로 복무중 개발한 익명앱 플랫폼
       </span>
       <article className="flex flex-col gap-y-[7]">
-        <Explain>부대내의 익명제보를 위한 개발</Explain>
+        <Explain>복무중인 부대내의 익명제보를 위한 개발</Explain>
       </article>
       <Links links={LINKS} />
     </div>

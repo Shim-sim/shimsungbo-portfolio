@@ -23,7 +23,8 @@ const IntroductionContainer = () => {
               GitHub<SkyPoint>.</SkyPoint>
             </Link>
             <Link
-              href={'123'}
+              href={'https://www.linkedin.com/in/shim-sungbo-773370294'}
+              target={'_blank'}
               className="w-full font-semibold font-Pretendard cursor-pointer h-full text-3xl text-left p-2.5 bg-gradient-to-r from-indigo-500 duration-700 hover:bg-sky-500 hover:to-transparent"
             >
               LinkedIn<SkyPoint>.</SkyPoint>
@@ -44,7 +45,7 @@ const IntroductionContainer = () => {
             <a className=" no-underline text-white text-[16px] hover:text-gray-400">
               shimdb96@gamil.com
             </a>
-            <p className="text-white ml-3">Last update: 2023.09.11</p>
+            <p className="text-white ml-3">Last update: 2023.10.02</p>
           </div>
         </aside>
       </FadeInContent>
@@ -69,13 +70,13 @@ const IntroductionContainer = () => {
         <FadeInBodyText delay={2.6}>
           <div className="flex font-semibold flex-col justify-center items-center">
             <span className="text-[30px] tablet:text-[23px] mobile:text-[14px]">
-              프론트엔드 개발자입니다.
+              프론트엔드 개발자 심성보입니다.
             </span>
             <span className="text-[30px] tablet:text-[23px] mobile:text-[14px]">
               기술을 공유하고 문서화하는것을 좋아합니다.
             </span>
             <span className="text-[30px] tablet:text-[23px] mobile:text-[14px]">
-              공유의 중요성을 잘 알기에 항상 새기고 실천하려고 노력합니다.
+              공유의 중요성을 잘 알기에 항상 새기고 실천하기위해 노력합니다.
             </span>
           </div>
         </FadeInBodyText>
