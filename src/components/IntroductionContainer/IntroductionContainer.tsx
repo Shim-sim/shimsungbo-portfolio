@@ -31,7 +31,7 @@ const IntroductionContainer = () => {
             </Link>
             <Link
               href={
-                'https://www.notion.so/shimsungbo/81f6e6dcad56471b8081566c04ea6027?pvs=4'
+                'https://shimsungbo.notion.site/81f6e6dcad56471b8081566c04ea6027?pvs=4'
               }
               target={'_blank'}
               className="w-full font-semibold font-Pretendard cursor-pointer h-full text-3xl text-left p-2.5 bg-gradient-to-r from-indigo-500 duration-700 hover:bg-sky-500 hover:to-transparent"

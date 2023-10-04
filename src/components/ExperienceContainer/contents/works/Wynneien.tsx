@@ -3,7 +3,7 @@ import Explain from '../../common/Explain';
 import Links from '../../common/Links';
 const LINKS = [
   {
-    href: 'https://www.notion.so/shimsungbo/81f6e6dcad56471b8081566c04ea6027?pvs=4',
+    href: 'https://shimsungbo.notion.site/81f6e6dcad56471b8081566c04ea6027?pvs=4',
     text: '위니언 일지',
   },
 ];

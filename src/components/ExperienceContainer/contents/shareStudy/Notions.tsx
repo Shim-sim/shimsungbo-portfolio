@@ -4,7 +4,7 @@ import Links from '../../common/Links';
 
 const LINKS = [
   {
-    href: 'https://www.notion.so/shimsungbo/ecb1ac8e72064f0d916a492842109371?pvs=4',
+    href: 'https://shimsungbo.notion.site/ecb1ac8e72064f0d916a492842109371?pvs=4',
     text: '노션 개발기록',
   },
 ];

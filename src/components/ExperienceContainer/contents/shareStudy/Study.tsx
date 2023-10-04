@@ -4,7 +4,7 @@ import Links from '../../common/Links';
 
 const LINKS = [
   {
-    href: 'https://www.notion.so/shimsungbo/e06791c2fa6948a4b297dae9b806235a?pvs=4',
+    href: 'https://shimsungbo.notion.site/e06791c2fa6948a4b297dae9b806235a?pvs=4',
     text: '새싹스터디 링크',
   },
 ];
