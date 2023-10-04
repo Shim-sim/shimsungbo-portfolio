@@ -42,7 +42,10 @@ const IntroductionContainer = () => {
 
           {/*바텀 컨테이너 */}
           <div className="flex mb-[100px] flex-col justify-center items-center">
-            <a className=" no-underline text-white text-[16px] hover:text-gray-400">
+            <a
+              className=" no-underline text-white text-[16px] hover:text-gray-400"
+              href="mailto:shimdb96@gamil.com"
+            >
               shimdb96@gamil.com
             </a>
             <p className="text-white ml-3">Last update: 2023.10.02</p>
